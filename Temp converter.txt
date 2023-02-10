@@ -1,0 +1,6 @@
+temperature = float(input("Outside Temp: "))
+units = input("F or C: ")
+if units == "F" or units == "f":
+    print("Temp in C: " + str((temperature - 32) * 5/9))
+elif units == "C" or units == "c":
+    print("Temp in F: " + str((temperature * 1.8) + 32))
